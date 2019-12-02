@@ -1,10 +1,10 @@
 {
-  "name": "certificates-for-wordcamp",
-  "description": "Certificates generator for WordCamps",
+  "name": "certificates-for-naijahacks",
+  "description": "Certificates generator for Naijahacks",
   "version": "1.4.1",
-  "author": "Claudio Sanches",
+  "author": "Andrew Miracle",
   "keywords": [
-    "wordcamp",
+    "naijahacks",
     "certificates"
   ],
   "scripts": {
@@ -25,6 +25,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:wpbrasil/certificates-for-wordcamp.git"
+    "url": "https://github.com/koolamusic/naijahacks-certificate"
   }
 }

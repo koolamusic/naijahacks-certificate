@@ -16,7 +16,7 @@ certificate:
   logo: "static/images/logo.png"
   background: "static/images/background.png"
   textLine1: "This certificate is presented to"
-  textLine2: "For actively participating and developing an innovative solution at the %event_date%, edition of %event_name%, (Nigeria's official Hackathon) as a  %attendee_type%, for %event_duration%."
+  textLine2: "For actively participating and developing an innovative solution at the %event_date%, edition of %event_name%, (Nigeria's official Hackathon) for %event_duration%."
 routes:
   certificate: certificate
 errors:
