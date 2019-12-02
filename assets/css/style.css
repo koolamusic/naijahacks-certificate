@@ -54,7 +54,7 @@ a:hover {
   text-align: center;
 }
 
-.logo-wordcamp {
+.logo-naijahacks {
   max-height: 150px;
   max-width: 100%;
   width: auto;
@@ -62,6 +62,7 @@ a:hover {
 
 .instructions {
   padding: 10px;
+  font-size: 1.4rem;
 }
 
 .error {
@@ -74,7 +75,7 @@ a:hover {
 }
 
 .site-info {
-  font-size: .6em;
+  font-size: 1.2em;
   text-align: center;
 }
 
@@ -91,28 +92,63 @@ a:hover {
 .form-certificate input {
   background-color:  #ffffff;
   border-bottom-left-radius: 2px;
+  margin-top: .3rem;
+  width: 100%;
   border-right: 0;
   border-top-left-radius: 2px;
   border: 1px solid #999999;
   color:#252525;
-  padding: 14px 15px 14px 40px;
+  padding: 1rem 1rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Calibre', 'Segoe UI', Roboto, Oxygen, Cantarell, 'Ubuntu', 'Open Sans', 'Helvetica Neue', sans-serif;
-  width: 80%;
+  /* width: 80%; */
   font-size: 16px;
+}
+
+.form-certificate input:hover {
+  border: 1px solid #ff775f;
 }
 
 .form-certificate button {
   background-color:  #ff775f;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
-  border: none;
+  margin-top: .3rem;
   color: #ffffff;
   cursor: pointer;
-  margin-left: -4px;
-  padding: 15px 22px;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 18px;
+  width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Calibre', 'Segoe UI', Roboto, Oxygen, Cantarell, 'Ubuntu', 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .form-certificate button:hover {
   background-color: #111010;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* flex: 1 1 50%; */
+}
+
+@media only screen and (min-width: 720px) {
+  .form-row {
+    flex-direction: row;
+    flex: 1 1 50%;
+  }
+  .form-certificate button{
+    margin-left: 10px;
+  }
 }
