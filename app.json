@@ -1,0 +1,10 @@
+{
+  "name": "Certificates for Naijahacks",
+  "description": "A Conference Badge Generator for Naijahacks.",
+  "repository": "https://github.com/koolamusic/naijahacks-certificate",
+  "keywords": [
+    "node",
+    "naijahacks",
+    "certificate"
+  ]
+}
