@@ -1,0 +1,50 @@
+@page {
+  size: A4 landscape;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #eee;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  height: 100%;
+  margin: 0;
+  padding: 1cm;
+  text-align: center;
+}
+
+.logo-wordcamp {
+  max-height: 150px;
+  width: auto;
+}
+
+.inner-content {
+  display: table-cell;
+  left: 50%;
+  min-width: 80%;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  margin: 0.5cm 0;
+}
+
+p {
+  margin: 0.5cm 0;
+  padding: 0 10%;
+}
+
+
+.content__name {
+  font-family: Courgette, cursive;
+}

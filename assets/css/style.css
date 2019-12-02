@@ -1,0 +1,100 @@
+/**
+ * Box Sizing.
+
+ */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/**
+ * Content.
+ */
+
+body {
+  background-color: #f7f7f7;
+  color: #252525;
+}
+
+a {
+  color: #ff775f;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 30px;
+  text-align: center;
+}
+
+.logo-wordcamp {
+  max-height: 150px;
+  max-width: 100%;
+  width: auto;
+}
+
+.instructions {
+  padding: 10px;
+}
+
+.error {
+  background-color: #FFBABA;
+  border-radius: 3px 3px 3px 3px;
+  color: #D8000C;
+  display: table;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.site-info {
+  font-size: .6em;
+  text-align: center;
+}
+
+/**
+ * Form Input.
+ */
+
+.form-certificate {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.form-certificate input {
+  background-color:  #ffffff;
+  border-bottom-left-radius: 2px;
+  border-right: 0;
+  border-top-left-radius: 2px;
+  border: 1px solid #999999;
+  color:#252525;
+  padding: 14px 15px 14px 40px;
+  width: 80%;
+}
+
+.form-certificate button {
+  background-color:  #ff775f;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: -4px;
+  padding: 15px 22px;
+}
+
+.form-certificate button:hover {
+  background-color: #111010;
+}

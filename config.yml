@@ -1,0 +1,32 @@
+event:
+  name: "Naijahacks 2019"
+  url: "http://naijahacks.com"
+  date: "December 5-7, 2019"
+  duration: "3 days"
+site:
+  lang: "en"
+  title: "Certificates for Naijahacks Hackathon"
+  logo: "static/images/logo.png"
+  index:
+    message: "Input your email address to generate your certificate"
+    emailPlaceholder: "uchi@naijahacks.com"
+    inputLabel: "Email"
+    submit: "Generate"
+certificate:
+  logo: "static/images/logo.png"
+  background: "static/images/background.png"
+  textLine1: "This certificate is presented to"
+  textLine2: "For actively participating and developing an innovative solution at the %event_date%, edition of %event_name%, (Nigeria's official Hackathon) as a  %attendee_type%, for %event_duration%."
+routes:
+  certificate: certificate
+errors:
+  error: "<strong>Error:</strong> %message%"
+  missingEmail: "Missing email address!"
+  invalidEmail: "Invalid email address!"
+  emailNoExists: "The email address does not exists!"
+  notAttended: "You did not attend the 2019 edition of Naijahacks!"
+  csvError: "An error occurred while reading your CSV-Certificate Information!"
+  csrfError: "Cheatin' huh?"
+  error404: "404: Page not Found"
+  error500: "500: Internal Server Error"
+csv: csv/export.csv

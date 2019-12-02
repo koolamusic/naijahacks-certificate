@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{event.name}}</title>
+  <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{{{baseUrl}}}/static/css/certificate.css" />
+  <style>
+    body {
+      background-image: url("{{{baseUrl}}}/{{{certificate.background}}}");
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    {{#certificate.logo}}<img class="logo-wordcamp" src="{{{baseUrl}}}/{{{certificate.logo}}}" alt="{{event.name}}" />{{/certificate.logo}}
+
+    <div class="inner-content">
+      <p>{{{certificate.textLine1}}}</p>
+      <h1 class="content__name">{{attendee.first_name}} {{attendee.last_name}}</h1>
+      <p>{{{attendee.data}}}</p>
+    </div>
+  </div>
+</body>
+</html>

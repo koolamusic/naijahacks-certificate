@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{title}}</title>
+  <link rel="stylesheet" type="text/css" href="static/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+</head>
+
+<body>
+  <main class="content">
+    <img src="{{{logo}}}" class="logo-wordcamp" alt="{{event.name}}" />
+    <div class="instructions">
+      <p>{{{index.message}}}</p>
+    </div>
+    {{#error}}
+    <p class="error">{{{error}}}</p>
+    {{/error}}
+    <form action="/{{formAction}}" method="POST" class="form-certificate">
+      <input type="hidden" name="_csrf" value="{{csrfToken}}" />
+      <input type="email" name="email" placeholder="{{index.emailPlaceholder}}" aria-label="{{index.inputLabel}}"
+        required="required" />
+      <button type="submit">{{index.submit}}</button>
+    </form>
+  </main>
+  <footer class="site-info">
+    <a href="{{event.url}}">{{event.name}}</a>
+  </footer>
+</body>
+
+</html>
