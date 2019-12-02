@@ -12,7 +12,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Ubuntu', 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 18px;
   height: 100%;
   margin: 0;
@@ -47,4 +47,6 @@ p {
 
 .content__name {
   font-family: Courgette, cursive;
+  font-size: 56px;
+  color: #c23b23;
 }
