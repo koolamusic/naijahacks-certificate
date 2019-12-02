@@ -56,8 +56,8 @@ a:hover {
 
 .logo-naijahacks {
   max-height: 150px;
-  max-width: 100%;
-  width: auto;
+  max-width: 100px;
+  margin: auto;
 }
 
 .instructions {
